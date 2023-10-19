@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'Comic';
+    src: url('ComicSans.ttf') format('woff')
+}
+
 .background{
     background-color: rgb(57, 32, 80);
     color: white;
+    font-family: Comic;
+    font-style: normal;
     clear: both;
 }
 
@@ -8,13 +15,13 @@
     margin: 0;
     font-size: 70px;
     padding: 0 60px;
-    color: rgb(124, 122, 122);
+    color: rgb(146, 144, 144);
 }
 
 .lineBottom{
     margin-left: 60px;
-    color: rgb(124, 122, 122);
-    width: 100px;
+    color: rgb(146, 144, 144);
+    width: 20%;
     align-content: start;
     border: 2px solid;
     border-radius: 10px;
@@ -26,20 +33,97 @@
 }
 
 .card{
+    width: 80%;
     border-radius: 20px;
-    background-color: rgb(124, 122, 122);
-    height: 800px;
+    background-color: rgb(146, 144, 144);
+    height: 750px;
     flex-grow: 1;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 .leftOfCard {
-
+    width: 20%;
+    height: 750px;
+    align-items: center;
 }
 
-.leftHr{ 
-    width: 170px;
+.leftHr{
     color: rgb(124, 122, 122);
     align-content: start;
     border: 1px solid;
     border-radius: 10px;
 }
+
+.leftTxt:not(:first-child){
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.lineCenter{
+    border:  2px solid;
+    border-color: rgb(57, 32, 80);
+    margin: 0;
+    height: 700px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.amirContent{
+    width: 50%;
+    display: inline;
+    justify-content: center;
+    margin: auto;
+}
+
+.erfanContent{
+    width: 50%;
+    display: inline;
+    justify-content: center;
+    margin: auto;
+}
+
+.headSection{
+    margin: 20px 10px;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+}
+
+p {
+    margin: 0px 10px;
+    color: rgb(57, 32, 80);
+    font-size: 12px;
+    justify-content: start;
+}
+
+.skill-grid {
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    align-content: center;
+    width: 100%;
+}
+
+.skill-box {
+    background-color: rgb(57, 32, 80);
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.iamge {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.parentimage{
+    text-align: center;
+}
+
