@@ -1,0 +1,45 @@
+.background{
+    background-color: rgb(57, 32, 80);
+    color: white;
+    clear: both;
+}
+
+.header{
+    margin: 0;
+    font-size: 70px;
+    padding: 0 60px;
+    color: rgb(124, 122, 122);
+}
+
+.lineBottom{
+    margin-left: 60px;
+    color: rgb(124, 122, 122);
+    width: 100px;
+    align-content: start;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.parentCard{
+    margin: 20px 60px;
+    display: flex;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: rgb(124, 122, 122);
+    height: 800px;
+    flex-grow: 1;
+}
+
+.leftOfCard {
+
+}
+
+.leftHr{ 
+    width: 170px;
+    color: rgb(124, 122, 122);
+    align-content: start;
+    border: 1px solid;
+    border-radius: 10px;
+}
