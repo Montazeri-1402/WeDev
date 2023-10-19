@@ -18,17 +18,30 @@
     color: rgb(146, 144, 144);
 }
 
+.lineBottomParent{
+    display: flex;
+    align-items: start;
+}
+
+.lineBottomVertical {
+    border:  2px solid;
+    border-color: rgb(146, 144, 144);
+    margin-bottom: 0;
+    margin-left: 0;
+    height:10px;
+    display: inline-block;
+}
+
 .lineBottom{
+    margin-right: 0;
     margin-left: 60px;
     color: rgb(146, 144, 144);
-    width: 20%;
-    align-content: start;
+    width: 55.7%;
     border: 2px solid;
-    border-radius: 10px;
 }
 
 .parentCard{
-    margin: 20px 60px;
+    margin: 0 60px 0 60px ;
     display: flex;
 }
 
@@ -56,8 +69,8 @@
     border-radius: 10px;
 }
 
-.leftTxt:not(:first-child){
-    margin-top: 80px;
+.leftTxt{
+    margin-top: 30%;
     margin-bottom: 0;
 }
 
@@ -76,14 +89,18 @@
     width: 50%;
     display: inline;
     justify-content: center;
-    margin: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .erfanContent{
     width: 50%;
     display: inline;
-    justify-content: center;
-    margin: auto;
+    justify-content: start;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .headSection{
@@ -94,7 +111,7 @@
 }
 
 p {
-    margin: 0px 10px;
+    margin: 5px 10px;
     color: rgb(57, 32, 80);
     font-size: 12px;
     justify-content: start;
@@ -117,13 +134,28 @@ p {
 }
 
 .iamge {
-    border-radius: 50%;
+    margin-left: 40px;
+    border-radius: 20%;
     width: 200px;
     height: 200px;
     object-fit: cover;
 }
 
+.parentimage div{
+    align-content: center;
+    margin-left: 30px;
+}
+
+.name {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
 .parentimage{
-    text-align: center;
+    text-align: start;
+    justify-content: start;
+    display: flex;
 }
 
