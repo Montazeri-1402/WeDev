@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(167, 166, 166);
+}
+
+
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Card {
+    margin: 0px 40px;
+    background-color: rgb(9, 0, 56);
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 30px 100px;
+}
+
+.headerCard{
+    color: white;
+    margin-top: 10px;
+}
+
+.headerCard p{
+    margin: 0;
+}
+
+h2{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
