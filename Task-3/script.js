@@ -23,3 +23,5 @@ function calculate(num1, operator, num2) {
   console.log(calculate(100, "-", 50));
 
   
+
+  
