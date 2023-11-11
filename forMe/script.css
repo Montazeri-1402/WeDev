@@ -1,0 +1,55 @@
+p {
+    font-family: "Kalam";
+}
+
+#bodyId {
+    border: 1px solid black;
+    padding: 0;
+}
+
+#headImage {
+    max-width: 70%;
+    bottom: 30%;
+    height: auto;
+    margin-left: 5%;
+    /* transform: rotate(-20deg); */
+    padding: 0;
+    border-bottom-left-radius: 250%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+#withoutImg{
+    max-width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#headrId {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lazee {
+    font-size: 50px;
+    font-family: "Edu TAS Beginner";
+    word-spacing: 0%;
+    font-weight: bolder;
+}
+
+#getAnything {
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#subGetAnything{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
