@@ -1,0 +1,258 @@
+.Container {
+    width: 100%;
+    padding-bottom:100px;
+    border: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Edu TAS Beginner";
+}
+
+.section-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-11 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    text-align: start;
+}
+
+.section-11 h2 {
+    color: #c1187b;
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: 200px;
+}
+
+.section-11 div button {
+    width: 30%;
+    height: 30px;
+    background-color: #c1187b;
+    color: white;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+
+.section-12 {
+    overflow: hidden;
+    width: 90%;
+    height: 800px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    transform: rotate(25deg);
+    margin-top: -350px;
+    margin-right: -200px;
+}
+
+.section-12 img {
+    margin: 0;
+    transform: rotate(-25deg);
+    height: 1100px;
+    width: 130%;
+    padding-right: 400px;
+    padding-bottom: 700px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 400px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-content: center;
+}
+
+.section-21 {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+}
+
+.section-21 img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.containerShortImage {
+    display: flex;
+    flex-direction: row;
+    margin-left: -180px;
+    margin-top: 70px;
+}
+
+.shortImage {
+    width: 400px;
+    height: 250px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.shortImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.frontImage {
+    text-align: center;
+}
+
+.frontImage p {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section-3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-3 div div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+}
+
+.section-3 div div p {
+    margin: 0;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+
+.section-41 {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.section-41 button {
+    width: 30%;
+    height: 30px;
+    background-color: #c1187b;
+    color: white;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.section-42 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.section-42 img:nth-child(2) {
+    height: 250px;
+    width: 450px;
+    margin-top: 180px;
+    margin-left: -800px;
+    overflow: hidden;
+    border: 20px solid white;
+}
+
+.section-42 img:nth-child(1) {
+    height: 400px;
+    width: 700px;
+}
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+
+.section-51 {
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-52 img {
+    width: 100%;
+    height: 250px;
+}
+
+.section-52 div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.section-52 div div {
+    border: 10px solid white;
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section-6 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.section-6 h2 {
+    margin-top: -100px;
+}
+
+.section-6 p {
+    margin-top: 0;
+}
+
+.section-7{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 30px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
