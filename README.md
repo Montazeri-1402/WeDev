@@ -9,3 +9,10 @@ Work Number 3:
 
 
 ![Screenshot 2023-10-26 184321](https://github.com/Montazeri-1402/WeDev/assets/99032812/b4e8f1aa-61d7-4f91-8f37-7c738934f816)
+
+
+Exam Amir:
+
+
+
+![127 0 0 1_5500_Exam_Amir_indax html](https://github.com/Montazeri-1402/WeDev/assets/99032812/c7d7e4a4-a51b-4d89-99f0-efa553a6a81c)
