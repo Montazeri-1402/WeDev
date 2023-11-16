@@ -1,0 +1,402 @@
+.back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 100px;
+    border: 0;
+    font-family: "Kalam";
+}
+
+.Tabbar {
+    margin-top: -550px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+
+.Tabbar img{
+    width: 12%;
+}
+
+.Tabbar div {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    background-color: transparent;
+}
+
+.h4BorderBottom {
+    border-bottom: 2px solid #c1187b;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section11 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 200px;
+}
+
+.section11 p {
+    font-size: 90px;
+    margin-bottom: 0;
+}
+
+.section11h1 {
+    margin-top: 0;
+    font-size: 60px;
+}
+
+.section12 {
+    width: 90%;
+    height: 900px;
+    border: 1px solid white;
+    border-radius: 220px;
+    transform: rotate(30deg);
+    margin-top: -300px;
+    margin-right: -300px;
+    overflow: hidden;
+}
+
+.section12 img {
+    width: 130%;
+    height: 1100px;
+    transform: rotate(-30deg);
+}
+
+.section11 button {
+    width: 250px;
+    color: white;
+    height: 40px;
+    background-color:  #c1187b;
+    border: 1px solid  #c1187b;
+    border-radius: 30px;
+    font-family: "Kamal";
+}
+
+.section2 {
+    margin-top: 900px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bigImage {
+    width: 1000px;
+    height:500px;
+    display: flex;
+}
+
+.bigImage img {
+    width: 100%;
+    height: 100%; 
+}
+
+.rightOfImageText {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.rightOfImageImages {
+    display: flex;
+    flex-direction: row;
+    margin-left: -180px;
+    border: 10px solid white;
+    margin-top: 70px;
+}
+
+.shortImg {
+    width: 300px;
+    height: 200px;
+    border: 15px solid white;
+    overflow: hidden;
+}
+
+.shortImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.rightOfImageImages button{
+    font-size: 20px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color:  #c1187b;
+    border: 1px solid  #c1187b;
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-left: 10px;
+    font-family: "Kamal";
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section3 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section3 div div {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 0px 0px 100px 31px rgba(0,0,0,0.1);
+    border-radius: 50px;
+}
+
+.section3 div div p {
+    margin: 0;
+}
+
+.section3 div div img{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+
+.section41 {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.section41 h2 {
+    width: 50%;
+}
+
+.section41 p {
+    color: rgb(61, 61, 61);
+}
+
+.section41 button {
+    width: 50%;
+    height: 50px;
+    background-color: #c1187b;
+    color: white;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    font-size: large;
+    border: 1px solid transparent;
+    border-radius: 40px;
+}
+
+.section42 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+.section42 img:nth-child(2) {
+    height: 250px;
+    width: 250px;
+    margin-top: 180px;
+    margin-left: -480px;
+    overflow: hidden;
+    border: 10px solid white;
+}
+
+.section42 img:nth-child(1) {
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+
+.section51 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.section51 p {
+    font-size: 20px;
+}
+
+.section51 p:nth-child(1) {
+    color: #c1187b;
+}
+
+.upImage img {
+    width: 100%;
+}
+
+.upImage {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    
+}
+
+.section52 div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.section52 div div {
+    border: 10px solid white;
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section52 div div p{
+    color: grey;
+    margin: 0;
+    width: 50%;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.section6 h2{
+    font-size: 40px;
+}
+
+.section6 p{
+    color: grey;
+}
+
+.section7 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.section7 .container{
+    width: 30%;
+    height: 200px;
+    box-shadow: 0px 0px 100px 31px rgba(0,0,0,0.1);
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.section7 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.section7 .section7Row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.section7 .section7Row  h4{
+    padding: 0;
+    margin: 0;
+}
+
+.section7 .section7Row .Stars {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.section7 .section7Row .Stars img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.section7 div p{
+    color: grey;
+    margin-top: 0;
+}
+
+.section8 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.section8 img {
+    width: 20%;
+    height: 100px;
+    color: grey;
+    filter: grayscale(100%);
+}
