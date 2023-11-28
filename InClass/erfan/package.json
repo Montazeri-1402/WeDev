@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "start": "node server.js",
+        "live": "nodemon server.js"
+    },
+    "name": "calculator",
+    "version": "0.0.1",
+    "description": "test",
+    "main": "server.js",
+    "author": "erfan",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
