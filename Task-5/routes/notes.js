@@ -20,7 +20,7 @@ router.get('/deleteById', function (req, res, next) {
 });
 
 
-router.get('/deleteByIndex', function(req, res, next) {
+router.get('/deleteByIndex', function (req, res, next) {
     const index = req.query.index;
 
     notebooks.splice(index, 1);
@@ -32,9 +32,9 @@ router.get('/editNote', function (req, res, next) {
     const id = req.query.id;
     const key = req.query.key;
     const value = req.query.value;
-    
+
     for (let i = 0; i < notebooks.length; i++) {
-        if(notebooks[i].id === id){
+        if (notebooks[i].id === id) {
             notebooks[i].bookName = value;
         }
     }
@@ -42,19 +42,31 @@ router.get('/editNote', function (req, res, next) {
     res.json(notebooks);
 });
 
-router.get('/reNote', function(req, res, next) {
+router.get('/reNote', function (req, res, next) {
     const body = req.body;
     const id = req.query.id;
 
     for (let i = 0; i < notebooks.length; i++) {
-        if(notebooks[i].id === id){
+        if (notebooks[i].id === id) {
             notebooks[i] = body;
-        } 
+        }
     }
 
     res.json(notebooks);
 });
 
+router.get('/getPage', function (req, res, next) {
+    const index = req.query.index;
+    const len = req.query.len;
+
+    const list = [];
+
+    for (let i = index; i < len; i++) {
+        list.push(notebooks[i]);
+    }
+
+    res.json(list);
+});
 
 
 module.exports = router;
