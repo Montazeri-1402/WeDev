@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "Conversation" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "senderId" INTEGER NOT NULL,
+    "reciverId" INTEGER NOT NULL,
+    "time" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
