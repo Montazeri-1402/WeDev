@@ -20,7 +20,7 @@ router.get('/deleteById', function (req, res, next) {
 });
 
 
-router.get('/deleteByIndex', function (req, res, next) {
+router.get('/deleteByIndex', function(req, res, next) {
     const index = req.query.index;
 
     notebooks.splice(index, 1);
@@ -34,7 +34,7 @@ router.get('/editNote', function (req, res, next) {
     const value = req.query.value;
 
     for (let i = 0; i < notebooks.length; i++) {
-        if (notebooks[i].id === id) {
+        if (notebooks[i].id === id){
             notebooks[i].bookName = value;
         }
     }
